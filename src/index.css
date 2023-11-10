@@ -9,11 +9,27 @@ body {
   padding: 0;
 }
 
+#Game_Area {
+  background-color: aliceblue;
+  height: 408px;
+  width: 408px;
+  border: 1px solid black;
+}
+
+#Footer {
+  background-color: aliceblue;
+  position: relative;
+  bottom: 408px;
+  left: 500px;
+  width: 408px;
+  height: 408px;
+  border: 3px solid #73AD21
+}
+
 .btn {
-  background: #fff;
-  border: 1px solid #999;
+  border: 1px solid #000000;
   float: left;
-  font-size: 136px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 204px;
   height: 204px;
@@ -22,4 +38,28 @@ body {
   padding: 0;
   text-align: center;
   width: 204px;
+}
+
+#Rock {
+  background-color: crimson;
+}
+
+#Scissors {
+  background-color: rgb(20,100, 255);
+}
+
+#Paper {
+  position: relative;
+  background-color:greenyellow;
+  left: 102px; 
+}
+
+#Reset {
+  position: relative;
+  background-color: silver;
+  top: 102px;
+  width: 402px;
+  height: 302px;
+  font-size: 39px;
+  border: 0px;
 }
