@@ -19,6 +19,7 @@ body {
 #Footer {
   background-color: aliceblue;
   position: relative;
+  text-align: center;
   bottom: 408px;
   left: 500px;
   width: 408px;
@@ -57,7 +58,7 @@ body {
 #Reset {
   position: relative;
   background-color: silver;
-  top: 102px;
+  top: 16px;
   width: 402px;
   height: 302px;
   font-size: 39px;
